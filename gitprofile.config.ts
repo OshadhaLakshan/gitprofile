@@ -52,31 +52,31 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Oshadha',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: '',
-    twitter: '',
+    linkedin: 'oshadha-lakshan',
+    twitter: 'OLakshan57618',
     mastodon: '',
     researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
+    facebook: 'oshadha.lakshan.7',
+    instagram: 'lakshan.oshadha',
+    reddit: 'u/Brave_Custard_904',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'sciPanda', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'oshadhalakshanwijesinghe',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
+    telegram: 'oshadhalakshan',
     website: '',
-    phone: '',
-    email: '',
+    phone: '+94-76-9022600',
+    email: 'oshadhaen@gmail.com',
   },
   resume: {
     fileUrl:
@@ -158,9 +158,9 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'oshadhalakshanwijesinghe', // to hide blog section, keep it empty
+    limit: 10, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -179,7 +179,7 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
