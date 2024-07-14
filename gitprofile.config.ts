@@ -54,7 +54,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Oshadha',
     description: '',
-    imageURL: '',
+    imageURL: 'https://scontent.fcmb3-2.fna.fbcdn.net/v/t39.30808-6/436330922_979823883661997_6475565142154272388_n.jpg',
   },
   social: {
     linkedin: 'oshadha-lakshan-39210a2ab',
@@ -63,7 +63,7 @@ const CONFIG = {
     researchGate: '',
     facebook: 'oshadha.lakshan.7',
     instagram: 'lakshan.oshadha',
-    reddit: 'u/Brave_Custard_904',
+    reddit: 'Brave_Custard_904',
     threads: '',
     youtube: 'OshadhaL', // example: 'pewdiepie'
     udemy: '',
@@ -83,20 +83,25 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Django',
+    'Flask',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
     'MySQL',
+    'SQLite',
     'PostgreSQL',
+    'MongoDB',
     'Git',
-    'Docker',
     'PHPUnit',
     'CSS',
     'Antd',
     'Tailwind',
+    'Python',
+    'C',
+    'C++',
+    'C#',
   ],
   experiences: [
     {
@@ -171,7 +176,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'pastel',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,10 +184,10 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: true,
+    respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
+    displayAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
