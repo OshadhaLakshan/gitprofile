@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['OshadhaLakshan/OshadhaLakshan'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['OshadhaLakshan/OshadhaLakshan', 'OshadhaLakshan/oshadha.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -54,7 +54,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Oshadha',
     description: '',
-    imageURL: 'https://scontent.fcmb3-2.fna.fbcdn.net/v/t39.30808-6/436330922_979823883661997_6475565142154272388_n.jpg',
+    imageURL: '',
   },
   social: {
     linkedin: 'oshadha-lakshan-39210a2ab',
@@ -96,10 +96,8 @@ const CONFIG = {
     'Git',
     'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
     'Python',
-    'C',
+    'Unity',
     'C++',
     'C#',
   ],
@@ -176,11 +174,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'pastel',
+    defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
