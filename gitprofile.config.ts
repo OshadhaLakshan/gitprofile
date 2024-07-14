@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'oshadha-lakshan',
+    linkedin: 'oshadha-lakshan-39210a2ab',
     twitter: 'OLakshan57618',
     mastodon: '',
     researchGate: '',
@@ -65,7 +65,7 @@ const CONFIG = {
     instagram: 'lakshan.oshadha',
     reddit: 'u/Brave_Custard_904',
     threads: '',
-    youtube: 'sciPanda', // example: 'pewdiepie'
+    youtube: 'OshadhaL', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
