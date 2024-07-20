@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'oshadha-lakshan-39210a2ab',
+    linkedin: 'oshadha-lakshan',
     twitter: 'OLakshan57618',
     mastodon: '',
     researchGate: '',
