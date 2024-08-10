@@ -43,8 +43,8 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Oshadha',
-    description: '',
-    imageURL: '',
+    description: 'Online Resume for Jobs',
+    imageURL: 'https://drive.google.com/file/d/1wqbdejusj6ksougLSs1YPT0qIf5dQX8Z/view?usp=drive_link',
   },
   social: {
     linkedin: 'oshadha-lakshan',
